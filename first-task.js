@@ -7,6 +7,12 @@ import React from "react";
 import { connect } from "react-redux";
 //Fix: import fetchPeople function
 import { fetchPeople } from "./utils.js";
+//Or declare the function
+/*
+const fetchPeople = () => {
+  return { type: "FETCH_PEOPLE" };
+};
+*/
 
 const map = (a, b) => {
   const newArray = [];
