@@ -63,7 +63,7 @@ class App extends React.Component {
 }
 
 const mapStateToProps = state => {
-  //   Issue: {people: {data}} syntax, i think, and redeclaring {houses} variabe
+  //   Issue: {people: {data}} wrong syntax i think, and redeclaring {houses} variabe
   //   const { people: { data }, companies, houses } = state;
 
   //   Fix: rename people and houses variables
